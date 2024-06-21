@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pengecekan Bilangan Genap atau Ganjil</title>
+</head>
+<body>
+
+<script>
+for ( var i = true; i;)
+ {
+	var angka = prompt('Masukkan Angka :');
+	if (angka %2 == 0) {
+		alert ('Dore dore.. ' + angka + ' adalah bilangan Genap.');
+		i = confirm (' Ulangi ?');
+	}
+	else if (angka %2 == 1) {
+		alert ('Dore dore.. ' + angka + ' adalah bilangan Ganjil.');
+		i = confirm ('Ulangi ?');}
+	else {
+		alert ('Dore dore... Yang anda masukkan bukan angka..');
+		i = confirm ('Ulangi ?');
+	}
+}
+</script>	
+</body>
+</html>
